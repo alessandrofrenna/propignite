@@ -1,0 +1,25 @@
+{
+	"name": "alessandrofrenna/propignite",
+	"description": "Extend Codeigniter by adding support to Propel2 active record system.",
+	"license": "MIT",
+	"keywords": ["framework", "propel", "active records", "codeigniter", "extended codeigniter"],
+	"authors": [
+		{
+			"name": "Alessandro Frenna",
+			"email": "alessandrofrenna95@gmail.com"
+		}
+	],
+
+	"require": {
+		"php": ">=7.1.0",
+		"propel/propel": "~2.0@dev"
+	},
+	"require-dev": {
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Codeigniter\\Propel\\" : "application/libraries/Propel/"
+		}	
+	}
+}
